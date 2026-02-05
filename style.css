@@ -1,60 +1,78 @@
 /*
-Theme Name: infobasic angel
+Theme Name: infobasic_Angel
 Author: Angel
 Version: 1.0
 */
 
-body {
+* {
   margin: 0;
-  font-family: Arial, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111;
+  background: #fff;
   line-height: 1.6;
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 16px;
+  padding: 20px;
 }
 
 .site-header {
   border-bottom: 1px solid #ddd;
-  padding: 16px 0;
+  margin-bottom: 30px;
 }
 
-.site-brand {
-  font-size: 20px;
-  font-weight: bold;
+.site-title a {
   text-decoration: none;
   color: #000;
+  font-size: 32px;
+  font-weight: 700;
 }
 
-.site-tagline {
-  font-size: 14px;
-  color: #666;
+.site-nav {
+  margin-top: 12px;
 }
 
-.main-nav {
-  margin-top: 10px;
-}
-
-.menu {
+.main-menu {
   list-style: none;
-  padding: 0;
   display: flex;
-  gap: 12px;
+  gap: 20px;
+  padding-left: 0;
 }
 
-.menu a {
+.main-menu li {
+  list-style: none;
+}
+
+.main-menu a {
   text-decoration: none;
   color: #000;
+  font-weight: 700;
 }
 
-.menu a:hover {
+.main-menu a:hover {
   text-decoration: underline;
+}
+
+.site-main h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.site-main p {
+  margin-bottom: 15px;
 }
 
 .site-footer {
   border-top: 1px solid #ddd;
-  padding: 16px 0;
-  color: #666;
+  margin-top: 40px;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 14px;
 }
